@@ -1,13 +1,13 @@
 # Commando Soldier 50
 #### Video Demo: https://youtu.be/72_ZxNi2ViU
 #### Description:
-Commando Soldier 50 (CS50) is a top down shooter survival game where you play as an elite commando whose task is to eliminate enemies until no one is left in battleground.\
-Beware that both you and enemies can't take one shot and that will result death.\
-Perform your task wisely and sneakily and as adaptatively as possiblle.\
+Commando Soldier 50 (CS50) is a top down shooter survival game where you play as an elite commando whose task is to eliminate enemies until no one is left in battleground.
+Beware that both you and enemies can't take one shot and that will result death.
+Perform your task wisely and sneakily and as adaptatively as possible.
 
 #### Source Code
 ##### player.lua
-Contains the code for elite commando soldier player character.\
+Contains the code for elite commando soldier player character.
 **move()** - moves the player character when user presses W,A,S,D keys
 
 **shoot()** - shoots a bullet from the position of the player character to the forward direction of the player character when user clicks left mouse
@@ -34,7 +34,7 @@ Contains the code for the whole game.
 **checkmissioncomplete()** - checks if player eliminated every enemy in the game
 
 ##### enemy.lua
-Contains the code for the enemy characters in the game.\
+Contains the code for the enemy characters in the game.
 **enemymove()** - moves the enemy character when player is at a specific distance
 
 **enemyshoot()** - shoots a bullet from the position of the enemy chracter to the position of the player
@@ -52,7 +52,7 @@ Contains the code for the enemy characters in the game.\
 **finddistance()** - calculates distance between player character and enemy character
 
 ##### bullet.lua
-Contains the code for bullet that can be used by both player and enemy.\
+Contains the code for bullet that can be used by both player and enemy.
 **createbullet()** - creates a bullet whenever player character or enemy character shoots
 
 **updatebullet()** - updates the position of the bullet
