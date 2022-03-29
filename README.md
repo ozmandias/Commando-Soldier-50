@@ -24,7 +24,7 @@ Contains the code for elite commando soldier player character.\
 
 
 #####  main.lua
-Contains the code for the whole game.
+Contains the code for the whole game. \
 **setupgame()** - sets the data values of the game environment at the start of the game
 
 **setupphysics()** - sets the data values of the physics in the game at the start of the game
@@ -34,7 +34,7 @@ Contains the code for the whole game.
 **checkmissioncomplete()** - checks if player eliminated every enemy in the game
 
 ##### enemy.lua
-Contains the code for the enemy characters in the game.
+Contains the code for the enemy characters in the game. \
 **enemymove()** - moves the enemy character when player is at a specific distance
 
 **enemyshoot()** - shoots a bullet from the position of the enemy chracter to the position of the player
@@ -52,7 +52,7 @@ Contains the code for the enemy characters in the game.
 **finddistance()** - calculates distance between player character and enemy character
 
 ##### bullet.lua
-Contains the code for bullet that can be used by both player and enemy.
+Contains the code for bullet that can be used by both player and enemy. \
 **createbullet()** - creates a bullet whenever player character or enemy character shoots
 
 **updatebullet()** - updates the position of the bullet
@@ -62,19 +62,19 @@ Contains the code for bullet that can be used by both player and enemy.
 **deletebullet()** - deletes bullet based on index number
 
 #### sound.lua
-Contains the code for sounds in the game.\
+Contains the code for sounds in the game. \
 **setupsound()** - sets the data values of sounds at the start of the game
 
 #### config.lua
-Contains configurations for the game.\
+Contains configurations for the game. \
 **love.conf()** - sets the configurations of the game for debugging purpose
 
 #### tree.lua
-Contains the code for tree in the game that can be used as cover.\
+Contains the code for tree in the game that can be used as cover. \
 **setuptrees()** - sets the data values of tress in the game at the start of the game
 
 #### ui.lua
-Contains the code for User Interface in the game.\
+Contains the code for User Interface in the game. \
 **updatebullettext()** - updates the text that displays the current bullet amount of the player character
 
 **updatepausetext()** - updates the text that displays the pause status of the game
@@ -85,7 +85,7 @@ Contains the code for User Interface in the game.\
 
 **updatemissionfailtext()** - updates the text that dispalys the mission failed status of the player character
 #### wait.lua
-Contains the code to pause the code for specific amount of time.\
+Contains the code to pause the code for specific amount of time. \
 **wait()** - pauses program for a specific amount of time
 
 
