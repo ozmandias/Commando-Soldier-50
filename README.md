@@ -24,7 +24,7 @@ Contains the code for elite commando soldier player character.\
 
 
 #####  main.lua
-Contains the code for the whole game.\
+Contains the code for the whole game.
 **setupgame()** - sets the data values of the game environment at the start of the game
 
 **setupphysics()** - sets the data values of the physics in the game at the start of the game
