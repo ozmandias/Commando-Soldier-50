@@ -7,7 +7,7 @@ Perform your task wisely and sneakily and as adaptatively as possible.
 
 #### Source Code
 ##### player.lua
-Contains the code for elite commando soldier player character./
+Contains the code for elite commando soldier player character.\
 **move()** - moves the player character when user presses W,A,S,D keys
 
 **shoot()** - shoots a bullet from the position of the player character to the forward direction of the player character when user clicks left mouse
