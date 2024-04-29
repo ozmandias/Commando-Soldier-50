@@ -2,7 +2,7 @@
 #### Video Demo: https://youtu.be/72_ZxNi2ViU
 #### Description:
 Commando Soldier 50 (CS50) is a top down shooter survival game where you play as an elite commando whose task is to eliminate enemies until no one is left in battleground.
-Beware that both you and enemies can't take one shot and that will result death.
+Beware that both you and enemies can take only one shot.
 Perform your task wisely and sneakily and as adaptatively as possible.
 
 #### Source Code
