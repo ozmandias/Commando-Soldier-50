@@ -42,10 +42,10 @@ function love.update(dt)
     --treeobject.vertical = treeobject.collider:getY() - treeobject.image:getHeight()/2
 
     windfieldworld:update(dt)
-    -- for i=1,table.getn(enemies) do
-    --     enemymove(i,dt)
-    --     enemyreload(i,dt)
-    -- end
+    for i=1,table.getn(enemies) do
+        enemymove(i,dt)
+        enemyreload(i,dt)
+    end
 
     if table.getn(bullets) > 0 then
         for i=1,table.getn(bullets) do
