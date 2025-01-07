@@ -32,7 +32,6 @@ function move(dt)
             rotate()
             soldiercharacter.horizontal = soldiercharacter.collider:getX()
             soldiercharacter.vertical = soldiercharacter.collider:getY()
-            -- mouseX, mouseY = push:toReal(mouseX, mouseY)
             if love.keyboard.isDown("w") then
                 --soldiercharacter.vertical = soldiercharacter.vertical - (soldiercharacter.speed * dt)
                 soldiercharacter.verticalvelocity = soldiercharacter.speed * -1

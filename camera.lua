@@ -2,6 +2,7 @@ function camera_translate()
     mouseX = love.mouse.getX()
     mouseY = love.mouse.getY()
     mouseX, mouseY = push:toGame(mouseX, mouseY)
+    -- mouseX, mouseY = push:toReal(mouseX, mouseY)
     
     if startgame == true then
         -- left
