@@ -51,7 +51,7 @@ function enemyshoot(locationinenemies,dt)
             love.audio.play(enemies[locationinenemies].shootsound)
         end
         --print("enemies["..locationinenemies.."].enemyshoottimer:"..tostring(enemies[locationinenemies].enemyshoottimer))
-        enemies[locationinenemies].animator = enemies[locationinenemies].animations.shoot
+        -- enemies[locationinenemies].animator = enemies[locationinenemies].animations.shoot
         if enemies[locationinenemies].enemyshoottimer >= 0.5 then
             enemies[locationinenemies].enemyshoottimer = 0
             enemies[locationinenemies].enemyshoottime = 0

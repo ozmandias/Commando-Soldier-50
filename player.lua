@@ -95,7 +95,7 @@ function shoot(dt)
                     soldiercharacter.bullets = soldiercharacter.bullets - 1
                     createbullet(bulletdestinationhorizontal,bulletdestinationvertical,soldiercharacter.collider:getX(),soldiercharacter.collider:getY(),"PlayerBullet")
                     targetcursor = love.graphics.newImage("assets/cursorshoot.png")
-                    soldiercharacter.animator = soldiercharacter.animations.shoot
+                    -- soldiercharacter.animator = soldiercharacter.animations.shoot
                     love.audio.play(soldiercharacter.shootsound)
                 end
             else
