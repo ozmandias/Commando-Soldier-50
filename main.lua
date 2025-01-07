@@ -86,7 +86,7 @@ function love.draw()
 
         if table.getn(bullets) > 0 then 
             for i=1,table.getn(bullets) do
-                bullets[i].animator:draw(bullets[i].bulletanimation,bullets[i].horizontal,bullets[i].vertical,bullets[i].rotateangle+7.8,0.6,0.6,bullets[i].image:getWidth()/2,bullets[i].image:getHeight()/2)
+                bullets[i].animator:draw(bullets[i].bulletanimation,bullets[i].horizontal,bullets[i].vertical,bullets[i].rotateangle+7.8,1,1,bullets[i].image:getWidth()/2,bullets[i].image:getHeight()/2)
             end
         end
 
