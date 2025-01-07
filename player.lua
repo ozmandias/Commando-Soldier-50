@@ -29,9 +29,10 @@ windfield = require "library/windfield"
 function move(dt)
     if startgame == true then
         if pausegame == false and missionfail == false then
-            soldiercharacter.rotateangle = math.atan2((love.mouse.getY() - soldiercharacter.vertical),(love.mouse.getX() - soldiercharacter.horizontal)) + 7.8
+            rotate()
             soldiercharacter.horizontal = soldiercharacter.collider:getX()
             soldiercharacter.vertical = soldiercharacter.collider:getY()
+            -- mouseX, mouseY = push:toReal(mouseX, mouseY)
             if love.keyboard.isDown("w") then
                 --soldiercharacter.vertical = soldiercharacter.vertical - (soldiercharacter.speed * dt)
                 soldiercharacter.verticalvelocity = soldiercharacter.speed * -1
@@ -85,8 +86,8 @@ end
 function shoot(dt)
     if startgame == true then
         if pausegame == false and missionfail == false then
-                bulletdestinationhorizontal = love.mouse.getX()
-                bulletdestinationvertical = love.mouse.getY()
+                bulletdestinationhorizontal = mouseX --love.mouse.getX()
+                bulletdestinationvertical = mouseY --love.mouse.getY()
             if love.mouse.isDown(1) then
                 --soldiercharacter.image = playshootanimation(dt)
                 shoottime = shoottime + 1
@@ -103,6 +104,10 @@ function shoot(dt)
             end
         end
     end
+end
+
+function rotate()
+    soldiercharacter.rotateangle = math.atan2((mouseY --[=[love.mouse.getY()]=] - soldiercharacter.vertical),(mouseX --[=[love.mouse.getX()]=] - soldiercharacter.horizontal)) + 7.8
 end
 
 function reload()
